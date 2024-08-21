@@ -1,0 +1,40 @@
+
+body {
+    background-color: #yellow;
+  }
+  
+  .navbar {
+    background-color: yellow;
+  }
+  
+  .btn-primary {
+    background-color: grey;
+  }
+  
+  /* Custom Typography */
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(182, 182, 51);
+  }
+  
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 576px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+  }
+  
